@@ -12,19 +12,6 @@ class NewsController extends AppController {
         if(!$post){
             throw new \Exception('Страница не найдена', 404);
         }
-
-        // хлебные крошки
-
-        // связанные товары
-
-        // запись в куки запрошенного товара
-
-        // просмотренные товары
-
-        // галерея
-
-        // модификации
-
         $this->setMeta($post->title);
         $this->set(compact('post','news'));
 }

@@ -16,7 +16,7 @@ class AppController extends Controller{
 //            var_dump($varTemplate);
 
         }
-        $this->set('$varTemplate ');
+        $this->set('$varTemplate');
     }
 
 }
