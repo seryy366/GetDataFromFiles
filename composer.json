@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "csv\\": "vendor/csv/core",
+      "app\\": "app"
+    }
+  },
+  "require": {
+    "gabordemooij/redbean": "dev-master",
+    "ext-mysql": "*"
+  }
+}
